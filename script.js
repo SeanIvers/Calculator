@@ -71,7 +71,7 @@ function calculate() {
         // console.log(equationArr);
         equationArr[0] = String(equationArr[0])
         displayDiv.innerHTML = equationArr[0].slice(0, 12);
-        equationArr = [];
+        // equationArr = [];
         numStr = "";
     }
 }
